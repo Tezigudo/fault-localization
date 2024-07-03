@@ -1,3 +1,0 @@
-2024-06-25 15:31:05.077 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:31:05.080 | [main] | INFO  | functions.Calculator:87 | quadraticFormula method is called with a=0.0, b=2.0, c=1.0
-2024-06-25 15:31:05.080 | [main] | ERROR | functions.Calculator:89 | a cannot be 0 in a quadratic equation

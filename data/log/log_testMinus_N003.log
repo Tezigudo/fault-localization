@@ -1,3 +1,1 @@
-2024-06-25 15:11:30.928 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:11:30.931 | [main] | INFO  | functions.Calculator:60 | do minus calculation with -1.0 and 0.0
-2024-06-25 15:11:30.931 | [main] | INFO  | functions.Calculator:158 |  getting Answer: 1.0
+2024-07-03 17:15:08.741 | [main] | INFO  | functions.Calculator:59 | do minus calculation with -1.0 and 0.0

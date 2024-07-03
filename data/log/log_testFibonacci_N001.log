@@ -1,3 +1,1 @@
-2024-06-25 15:34:59.465 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:34:59.467 | [main] | INFO  | functions.Calculator:122 | fibonacci method is called with n=10.0
-2024-06-25 15:34:59.468 | [main] | INFO  | functions.Calculator:135 | Fibonacci number at position 10.0 is 55.0
+2024-07-03 17:33:42.760 | [main] | INFO  | functions.Calculator:126 | Fibonacci number at position 10.0 is 55.0

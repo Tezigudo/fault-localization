@@ -1,4 +1,2 @@
-2024-06-25 15:13:04.535 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:13:04.539 | [main] | INFO  | functions.Calculator:52 | do plus calculation with 1.0 and 0.0
-2024-06-25 15:13:04.540 | [main] | INFO  | functions.Calculator:68 | do times calculation with 2.0 and 1.0
-2024-06-25 15:13:04.541 | [main] | INFO  | functions.Calculator:158 |  getting Answer: 2.0
+2024-07-03 17:16:10.037 | [main] | INFO  | functions.Calculator:51 | do plus calculation with 1.0 and 0.0
+2024-07-03 17:16:10.040 | [main] | INFO  | functions.Calculator:67 | do times calculation with 2.0 and 1.0
