@@ -1,0 +1,3 @@
+2024-06-25 15:35:59.699 | [main] | INFO  | functions.Calculator:22 | Calculator is created
+2024-06-25 15:35:59.703 | [main] | INFO  | functions.Calculator:122 | fibonacci method is called with n=1.0
+2024-06-25 15:35:59.704 | [main] | INFO  | functions.Calculator:135 | Fibonacci number at position 1.0 is 1.0

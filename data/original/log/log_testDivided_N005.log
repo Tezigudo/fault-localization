@@ -1,0 +1,4 @@
+2024-06-25 15:20:10.719 | [main] | INFO  | functions.Calculator:22 | Calculator is created
+2024-06-25 15:20:10.722 | [main] | INFO  | functions.Calculator:52 | do plus calculation with 1.0 and 0.0
+2024-06-25 15:20:10.723 | [main] | INFO  | functions.Calculator:81 | do divided calculation with -2.0 and 1.0
+2024-06-25 15:20:10.724 | [main] | INFO  | functions.Calculator:158 |  getting Answer: -0.5
