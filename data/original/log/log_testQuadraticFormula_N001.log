@@ -1,3 +1,0 @@
-2024-06-25 15:27:11.642 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:27:11.646 | [main] | INFO  | functions.Calculator:87 | quadraticFormula method is called with a=1.0, b=-3.0, c=2.0
-2024-06-25 15:27:11.647 | [main] | INFO  | functions.Calculator:101 | Quadratic formula results: root1=2.0, root2=1.0

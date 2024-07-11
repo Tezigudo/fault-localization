@@ -1,0 +1,3 @@
+2024-07-11 15:42:58.525 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-11 15:42:58.526 | [main] | INFO  | functions.Calculator:83 | quadraticFormula method is called with a=1.0, b=0.0, c=1.0
+2024-07-11 15:42:58.527 | [main] | ERROR | functions.Calculator:91 | Discriminant is negative, no real roots

@@ -1,0 +1,2 @@
+2024-07-11 15:58:30.860 | [main] | INFO  | functions.Calculator:135 | isPrime method is called with n=17.0
+2024-07-11 15:58:30.861 | [main] | INFO  | functions.Calculator:146 | 17.0 is prime

@@ -1,0 +1,2 @@
+2024-07-11 16:23:03.759 | [main] | WARN  | functions.Calculator:74 | the number was divided by 0
+2024-07-11 16:23:03.760 | [main] | INFO  | functions.Calculator:152 |  getting Answer: null

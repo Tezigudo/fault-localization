@@ -1,3 +1,0 @@
-2024-06-25 15:35:28.745 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:35:28.747 | [main] | INFO  | functions.Calculator:122 | fibonacci method is called with n=0.0
-2024-06-25 15:35:28.748 | [main] | INFO  | functions.Calculator:135 | Fibonacci number at position 0.0 is 0.0

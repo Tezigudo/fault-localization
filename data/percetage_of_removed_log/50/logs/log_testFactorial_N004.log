@@ -1,0 +1,2 @@
+2024-07-11 16:08:24.750 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-11 16:08:24.751 | [main] | ERROR | functions.Calculator:105 | Factorial is not defined for negative numbers

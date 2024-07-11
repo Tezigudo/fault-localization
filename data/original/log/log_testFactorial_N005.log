@@ -1,3 +1,0 @@
-2024-06-25 15:34:12.644 | [main] | INFO  | functions.Calculator:22 | Calculator is created
-2024-06-25 15:34:12.646 | [main] | INFO  | functions.Calculator:107 | factorial method is called with n=1.0
-2024-06-25 15:34:12.647 | [main] | INFO  | functions.Calculator:116 | Factorial of 1.0 is 1.0

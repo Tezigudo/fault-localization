@@ -1,0 +1,2 @@
+2024-07-11 15:58:27.253 | [main] | INFO  | functions.Calculator:83 | quadraticFormula method is called with a=1.0, b=2.0, c=1.0
+2024-07-11 15:58:27.254 | [main] | INFO  | functions.Calculator:98 | Quadratic formula results: root1=-1.0, root2=-1.0
