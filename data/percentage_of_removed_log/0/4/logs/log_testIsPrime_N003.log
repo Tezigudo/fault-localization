@@ -1,0 +1,3 @@
+2024-07-11 15:36:31.597 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-11 15:36:31.599 | [main] | INFO  | functions.Calculator:135 | isPrime method is called with n=2.0
+2024-07-11 15:36:31.599 | [main] | INFO  | functions.Calculator:146 | 2.0 is prime

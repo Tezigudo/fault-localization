@@ -1,0 +1,2 @@
+2024-07-12 16:45:06.497 | [main] | INFO  | functions.Calculator:117 | fibonacci method is called with n=10.0
+2024-07-12 16:45:06.498 | [main] | INFO  | functions.Calculator:130 | Fibonacci number at position 10.0 is 55.0
