@@ -1,0 +1,3 @@
+2024-07-12 17:25:21.295 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:25:21.296 | [main] | INFO  | functions.Calculator:117 | fibonacci method is called with n=-1.0
+2024-07-12 17:25:21.297 | [main] | ERROR | functions.Calculator:119 | Fibonacci is not defined for negative numbers

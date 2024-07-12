@@ -1,0 +1,4 @@
+2024-07-12 17:02:58.743 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:02:58.744 | [main] | INFO  | functions.Calculator:47 | do plus calculation with 1.0 and 0.0
+2024-07-12 17:02:58.744 | [main] | INFO  | functions.Calculator:64 | do times calculation with -2.0 and 1.0
+2024-07-12 17:02:58.745 | [main] | INFO  | functions.Calculator:152 |  getting Answer: -2.0

@@ -1,0 +1,2 @@
+2024-07-12 17:27:01.336 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:27:01.337 | [main] | WARN  | functions.Calculator:74 | the number was divided by 0

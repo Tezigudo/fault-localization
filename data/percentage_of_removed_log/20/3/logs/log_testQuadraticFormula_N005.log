@@ -1,0 +1,2 @@
+2024-07-12 16:57:26.511 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 16:57:26.512 | [main] | ERROR | functions.Calculator:86 | a cannot be 0 in a quadratic equation

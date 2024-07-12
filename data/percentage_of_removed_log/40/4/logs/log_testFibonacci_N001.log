@@ -1,0 +1,2 @@
+2024-07-12 17:44:02.611 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:44:02.612 | [main] | INFO  | functions.Calculator:130 | Fibonacci number at position 10.0 is 55.0

@@ -1,0 +1,2 @@
+2024-07-12 16:54:53.544 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 16:54:53.545 | [main] | INFO  | functions.Calculator:117 | fibonacci method is called with n=10.0

@@ -1,0 +1,2 @@
+2024-07-12 16:58:54.839 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 16:58:54.840 | [main] | ERROR | functions.Calculator:119 | Fibonacci is not defined for negative numbers

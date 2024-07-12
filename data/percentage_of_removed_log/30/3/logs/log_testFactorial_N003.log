@@ -1,0 +1,2 @@
+2024-07-12 17:16:30.969 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:16:30.971 | [main] | INFO  | functions.Calculator:103 | factorial method is called with n=null

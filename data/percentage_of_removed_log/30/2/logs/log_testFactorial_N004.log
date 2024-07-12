@@ -1,0 +1,2 @@
+2024-07-12 17:11:50.423 | [main] | INFO  | functions.Calculator:103 | factorial method is called with n=-5.0
+2024-07-12 17:11:50.425 | [main] | ERROR | functions.Calculator:105 | Factorial is not defined for negative numbers

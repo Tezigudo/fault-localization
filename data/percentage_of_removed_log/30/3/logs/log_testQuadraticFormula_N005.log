@@ -1,0 +1,2 @@
+2024-07-12 17:16:02.385 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:16:02.386 | [main] | INFO  | functions.Calculator:83 | quadraticFormula method is called with a=0.0, b=2.0, c=1.0

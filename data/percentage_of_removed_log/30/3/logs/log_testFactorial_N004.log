@@ -1,0 +1,3 @@
+2024-07-12 17:16:16.750 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-12 17:16:16.751 | [main] | INFO  | functions.Calculator:103 | factorial method is called with n=-5.0
+2024-07-12 17:16:16.751 | [main] | ERROR | functions.Calculator:105 | Factorial is not defined for negative numbers

@@ -1,0 +1,2 @@
+2024-07-12 17:31:44.388 | [main] | INFO  | functions.Calculator:103 | factorial method is called with n=0.0
+2024-07-12 17:31:44.389 | [main] | INFO  | functions.Calculator:112 | Factorial of 0.0 is 1.0
