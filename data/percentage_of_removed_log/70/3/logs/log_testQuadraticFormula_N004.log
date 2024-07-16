@@ -1,0 +1,2 @@
+2024-07-16 13:43:58.610 | [main] | INFO  | functions.Calculator:20 | Calculator is created
+2024-07-16 13:43:58.611 | [main] | ERROR | functions.Calculator:91 | Discriminant is negative, no real roots
