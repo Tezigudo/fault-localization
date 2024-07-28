@@ -1,0 +1,13 @@
+2024-07-28 21:47:44.627 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.649 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@165e389b
+2024-07-28 21:47:44.650 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.650 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@165e389b
+2024-07-28 21:47:44.651 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.652 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@165e389b
+2024-07-28 21:47:44.652 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.653 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@165e389b
+2024-07-28 21:47:44.653 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.654 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@165e389b
+2024-07-28 21:47:44.655 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:47:44.655 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 21:47:44.656 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionBatch@8ee0c23

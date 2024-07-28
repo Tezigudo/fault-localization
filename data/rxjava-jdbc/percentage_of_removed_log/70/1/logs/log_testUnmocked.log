@@ -1,0 +1,34 @@
+2024-07-28 20:02:00.893 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select count(*) from person
+2024-07-28 20:02:00.921 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 20:02:00.922 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 20:02:00.922 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 20:02:00.923 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 20:02:00.924 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 20:02:00.942 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 20:02:00.949 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | beginTransaction emitting 1
+2024-07-28 20:02:00.950 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | emitted 1
+2024-07-28 20:02:00.951 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 20:02:00.965 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,0), parameters ['NANCY']
+2024-07-28 20:02:00.970 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5f2f577
+2024-07-28 20:02:00.970 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 20:02:00.971 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,0), parameters ['WARREN']
+2024-07-28 20:02:00.971 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5f2f577
+2024-07-28 20:02:00.972 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 20:02:00.972 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,0), parameters ['ALFRED']
+2024-07-28 20:02:00.974 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5f2f577
+2024-07-28 20:02:00.975 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 20:02:00.975 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,0), parameters ['BARRY']
+2024-07-28 20:02:00.975 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5f2f577
+2024-07-28 20:02:00.976 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 20:02:00.976 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,0), parameters ['ROBERTO']
+2024-07-28 20:02:00.977 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5f2f577
+2024-07-28 20:02:00.978 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 20:02:00.978 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 20:02:00.978 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | committing
+2024-07-28 20:02:00.979 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 20:02:00.980 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select count(*) from person
+2024-07-28 20:02:00.981 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 20:02:00.982 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs15: null
+2024-07-28 20:02:00.982 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep11: null
+2024-07-28 20:02:00.982 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 20:02:00.983 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed

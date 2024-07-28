@@ -1,0 +1,57 @@
+2024-07-28 13:51:48.146 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderNonClosing@232a7d73
+2024-07-28 13:51:48.158 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select id, name from master order by id
+2024-07-28 13:51:48.165 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 13:51:48.168 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select id, name from master order by id, parameters []
+2024-07-28 13:51:48.171 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep8: select id, name from master order by id
+2024-07-28 13:51:48.175 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.191 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderNonClosing@232a7d73
+2024-07-28 13:51:48.192 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select id, desc from detail where master_id=? order by id
+2024-07-28 13:51:48.193 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 13:51:48.194 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select id, desc from detail where master_id=? order by id, parameters [1]
+2024-07-28 13:51:48.194 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select id, desc from detail where master_id=? order by id {1: 1}
+2024-07-28 13:51:48.195 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.195 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.195 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 13:51:48.196 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 13:51:48.196 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 13:51:48.196 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep9: select id, desc from detail where master_id=? order by id {1: 1}
+2024-07-28 13:51:48.196 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 13:51:48.196 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 13:51:48.197 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 13:51:48.197 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 13:51:48.199 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 13:51:48.200 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 13:51:48.200 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 13:51:48.200 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 13:51:48.200 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.201 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderNonClosing@232a7d73
+2024-07-28 13:51:48.201 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select id, desc from detail where master_id=? order by id
+2024-07-28 13:51:48.203 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 13:51:48.203 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select id, desc from detail where master_id=? order by id, parameters [2]
+2024-07-28 13:51:48.204 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep10: select id, desc from detail where master_id=? order by id {1: 2}
+2024-07-28 13:51:48.204 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.205 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:51:48.205 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 13:51:48.205 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs10: null
+2024-07-28 13:51:48.206 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 13:51:48.206 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep10: select id, desc from detail where master_id=? order by id {1: 2}
+2024-07-28 13:51:48.206 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep10: null
+2024-07-28 13:51:48.206 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 13:51:48.206 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 13:51:48.207 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 13:51:48.207 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 13:51:48.207 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 13:51:48.207 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 13:51:48.207 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs8: null
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep8: select id, name from master order by id
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep8: null
+2024-07-28 13:51:48.208 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 13:51:48.209 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 13:51:48.209 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 13:51:48.209 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 13:51:48.209 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 13:51:48.210 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 13:51:48.210 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed

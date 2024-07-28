@@ -1,0 +1,6 @@
+2024-07-28 20:45:22.535 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@6ad59d92
+2024-07-28 20:45:22.544 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name, score from person order by name, parameters []
+2024-07-28 20:45:22.560 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 20:45:22.561 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 20:45:22.561 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 20:45:22.561 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps

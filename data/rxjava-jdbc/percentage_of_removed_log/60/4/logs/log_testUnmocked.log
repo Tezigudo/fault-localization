@@ -1,0 +1,29 @@
+2024-07-28 19:32:39.458 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 19:32:39.463 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select count(*) from person, parameters []
+2024-07-28 19:32:39.469 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select count(*) from person
+2024-07-28 19:32:39.474 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 19:32:39.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 19:32:39.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 19:32:39.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:test1 user=
+2024-07-28 19:32:39.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 19:32:39.485 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 19:32:39.486 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 19:32:39.506 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 19:32:39.516 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 19:32:39.537 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 19:32:39.538 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 19:32:39.541 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 19:32:39.542 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 19:32:39.543 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 19:32:39.543 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 19:32:39.544 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionBatch@4f936da8
+2024-07-28 19:32:39.546 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 19:32:39.546 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select count(*) from person, parameters []
+2024-07-28 19:32:39.547 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep11: select count(*) from person
+2024-07-28 19:32:39.547 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 19:32:39.548 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs15: null
+2024-07-28 19:32:39.548 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 19:32:39.548 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn3: url=jdbc:h2:mem:test1 user=
+2024-07-28 19:32:39.549 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 19:32:39.549 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 19:32:39.549 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con

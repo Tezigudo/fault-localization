@@ -1,0 +1,8 @@
+2024-07-28 21:22:32.611 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:22:32.645 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:22:32.648 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:22:32.653 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@a5b0b86
+2024-07-28 21:22:32.653 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select min(score) from person
+2024-07-28 21:22:32.658 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select min(score) from person, parameters []
+2024-07-28 21:22:32.664 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 21:22:32.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted

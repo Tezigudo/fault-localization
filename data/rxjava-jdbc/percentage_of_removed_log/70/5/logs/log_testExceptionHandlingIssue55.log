@@ -1,0 +1,8 @@
+2024-07-28 21:14:47.113 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@366ac49b
+2024-07-28 21:14:47.115 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:14:47.115 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from person order by name
+2024-07-28 21:14:47.136 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 21:14:47.137 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:14:47.137 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 21:14:47.137 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 21:14:47.139 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:146 | onError: class java.lang.String cannot be cast to class com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person (java.lang.String is in module java.base of loader 'bootstrap'; com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person is in unnamed module of loader 'app')

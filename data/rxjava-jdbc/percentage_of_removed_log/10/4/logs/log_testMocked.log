@@ -1,0 +1,57 @@
+2024-07-28 13:30:18.465 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 13:30:18.481 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 13:30:18.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | beginTransaction emitting 1
+2024-07-28 13:30:18.485 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | emitted 1
+2024-07-28 13:30:18.485 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.489 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 13:30:18.499 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.499 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.515 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.516 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.516 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.517 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 13:30:18.517 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.518 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 13:30:18.518 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.518 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.519 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.519 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.520 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.520 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 13:30:18.520 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.521 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 13:30:18.521 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.521 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.522 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.523 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.523 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.524 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 13:30:18.524 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.524 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 13:30:18.525 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.525 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.525 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.526 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.526 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.527 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 13:30:18.527 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.527 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 13:30:18.528 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.528 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.529 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.529 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.529 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@10895b16
+2024-07-28 13:30:18.530 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 13:30:18.530 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 13:30:18.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 13:30:18.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 13:30:18.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 13:30:18.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@6ea04618
+2024-07-28 13:30:18.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 13:30:18.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | committing
+2024-07-28 13:30:18.533 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 13:30:18.533 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionBatch@2cc03cd1
+2024-07-28 13:30:18.534 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | committed
+2024-07-28 13:30:18.534 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | unsubscribed

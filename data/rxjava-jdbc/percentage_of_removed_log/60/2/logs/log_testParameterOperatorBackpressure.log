@@ -1,0 +1,5 @@
+2024-07-28 19:15:45.482 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 19:15:45.490 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 19:15:45.499 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select name from person where name = ? {1: 'FRED'}
+2024-07-28 19:15:45.506 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:test1 user=
+2024-07-28 19:15:45.506 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed

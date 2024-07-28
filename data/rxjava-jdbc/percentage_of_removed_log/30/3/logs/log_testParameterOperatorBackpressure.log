@@ -1,0 +1,10 @@
+2024-07-28 15:56:40.715 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name from person where name = ?
+2024-07-28 15:56:40.722 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 15:56:40.727 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name from person where name = ?, parameters ['FRED']
+2024-07-28 15:56:40.730 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select name from person where name = ? {1: 'FRED'}
+2024-07-28 15:56:40.735 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 15:56:40.739 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 15:56:40.739 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 15:56:40.739 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 15:56:40.739 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 15:56:40.739 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:test1 user=

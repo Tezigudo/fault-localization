@@ -1,0 +1,9 @@
+2024-07-28 19:58:45.357 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@4fbda97b
+2024-07-28 19:58:45.358 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 19:58:45.364 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 19:58:45.366 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name, score from person, parameters []
+2024-07-28 19:58:45.387 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 19:58:45.388 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 19:58:45.388 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 19:58:45.388 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 19:58:45.388 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:636 | closing connection provider

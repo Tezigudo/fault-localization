@@ -1,0 +1,4 @@
+2024-07-28 15:45:29.578 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 15:45:29.586 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 15:45:29.586 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@70efb718
+2024-07-28 15:45:29.587 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionBatch@7bb6ab3a

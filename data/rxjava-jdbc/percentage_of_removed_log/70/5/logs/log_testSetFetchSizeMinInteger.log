@@ -1,0 +1,8 @@
+2024-07-28 21:06:35.565 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.FetchSizeTest$1@6e0c6a7a
+2024-07-28 21:06:35.566 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:06:35.566 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from people
+2024-07-28 21:06:35.574 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:06:35.576 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed Mock for PreparedStatement, hashCode: 1092382020
+2024-07-28 21:06:35.576 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 21:06:35.576 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 21:06:35.578 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed Mock for PreparedStatement, hashCode: 1092382020

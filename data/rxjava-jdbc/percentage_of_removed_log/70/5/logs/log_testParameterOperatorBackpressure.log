@@ -1,0 +1,4 @@
+2024-07-28 21:12:48.622 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@180da663
+2024-07-28 21:12:48.623 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:12:48.624 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name from person where name = ?
+2024-07-28 21:12:48.653 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null

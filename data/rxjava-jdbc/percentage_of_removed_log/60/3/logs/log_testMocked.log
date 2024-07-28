@@ -1,0 +1,13 @@
+2024-07-28 19:22:14.547 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 19:22:14.570 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.571 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.572 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.572 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.573 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.573 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.574 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.574 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.575 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.576 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@4dc8c0ea
+2024-07-28 19:22:14.576 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 19:22:14.577 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed

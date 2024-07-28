@@ -1,0 +1,4 @@
+2024-07-28 15:15:02.456 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 15:15:02.458 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | cp=com.github.davidmoten.rx.jdbc.ConnectionProviderBatch@70efb718
+2024-07-28 15:15:02.459 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 15:15:02.460 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe

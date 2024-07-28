@@ -1,0 +1,53 @@
+2024-07-28 14:01:36.625 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 14:01:36.638 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | beginTransaction emitting 1
+2024-07-28 14:01:36.639 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | emitted 1
+2024-07-28 14:01:36.640 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.643 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 14:01:36.650 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.660 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?, 0), parameters ['NANCY']
+2024-07-28 14:01:36.663 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.663 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.664 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.664 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 14:01:36.664 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.665 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 14:01:36.665 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.665 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?, 0), parameters ['WARREN']
+2024-07-28 14:01:36.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 14:01:36.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 14:01:36.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.668 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?, 0), parameters ['ALFRED']
+2024-07-28 14:01:36.668 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.669 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.669 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.669 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 14:01:36.670 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.670 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 14:01:36.670 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.671 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?, 0), parameters ['BARRY']
+2024-07-28 14:01:36.671 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.672 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.672 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.673 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 14:01:36.674 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.674 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 14:01:36.674 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.675 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?, 0), parameters ['ROBERTO']
+2024-07-28 14:01:36.675 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.676 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.676 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed com.github.davidmoten.rx.jdbc.PreparedStatementBatch@2de50ee4
+2024-07-28 14:01:36.676 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 14:01:36.676 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 14:01:36.677 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 14:01:36.677 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 14:01:36.677 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.677 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | getting connection
+2024-07-28 14:01:36.678 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 14:01:36.678 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | committing
+2024-07-28 14:01:36.678 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 14:01:36.679 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionBatch@47fbc56
+2024-07-28 14:01:36.679 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | unsubscribed

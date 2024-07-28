@@ -1,0 +1,43 @@
+2024-07-28 21:08:08.881 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:08:08.901 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep9: update person set score=? {1: 11}
+2024-07-28 21:08:08.901 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 21:08:08.902 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.905 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep10: update person set score=score + 5
+2024-07-28 21:08:08.905 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep10: null
+2024-07-28 21:08:08.906 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.907 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 21:08:08.908 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 21:08:08.909 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.909 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.910 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.910 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:08:08.911 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep11: update person set score=? {1: 12}
+2024-07-28 21:08:08.911 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep11: null
+2024-07-28 21:08:08.912 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.912 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep12: update person set score=score + 5
+2024-07-28 21:08:08.913 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep12: null
+2024-07-28 21:08:08.913 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.913 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 21:08:08.914 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 21:08:08.915 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.915 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.915 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.916 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 21:08:08.917 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep13: update person set score=? {1: 13}
+2024-07-28 21:08:08.917 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep13: null
+2024-07-28 21:08:08.917 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.918 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep14: update person set score=score + 5
+2024-07-28 21:08:08.918 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep14: null
+2024-07-28 21:08:08.919 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:08:08.919 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 21:08:08.920 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 21:08:08.920 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.920 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.920 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:08:08.923 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@54227100
+2024-07-28 21:08:08.923 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:08:08.924 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select min(score) from person
+2024-07-28 21:08:08.936 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:08:08.937 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep15: null
+2024-07-28 21:08:08.937 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 21:08:08.938 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted

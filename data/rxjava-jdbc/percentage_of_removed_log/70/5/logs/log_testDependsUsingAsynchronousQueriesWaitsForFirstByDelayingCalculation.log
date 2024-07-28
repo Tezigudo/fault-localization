@@ -1,0 +1,11 @@
+2024-07-28 21:12:08.287 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep9: insert into person(name,score) values(?,?) {1: 'JOHN', 2: 45}
+2024-07-28 21:12:08.289 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 21:12:08.289 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:12:08.289 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:12:08.378 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@3af2c77f
+2024-07-28 21:12:08.378 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:12:08.378 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name from person
+2024-07-28 21:12:08.391 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:12:08.391 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep10: null
+2024-07-28 21:12:08.392 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 21:12:08.392 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted

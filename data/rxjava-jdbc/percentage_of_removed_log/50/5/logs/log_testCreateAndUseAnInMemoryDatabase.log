@@ -1,0 +1,32 @@
+2024-07-28 18:45:58.353 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=create table person (name varchar(50) primary key, score int not null,dob date, registered timestamp), parameters []
+2024-07-28 18:45:58.363 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep0: create table person (name varchar(50) primary key, score int not null,dob date, registered timestamp)
+2024-07-28 18:45:58.364 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep0: create table person (name varchar(50) primary key, score int not null,dob date, registered timestamp)
+2024-07-28 18:45:58.364 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn0: url=jdbc:h2:mem:demo1 user=
+2024-07-28 18:45:58.365 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 18:45:58.365 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 18:45:58.377 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,?), parameters ['FRED', 21]
+2024-07-28 18:45:58.379 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep1: insert into person(name,score) values(?,?) {1: 'FRED', 2: 21}
+2024-07-28 18:45:58.379 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep1: insert into person(name,score) values(?,?) {1: 'FRED', 2: 21}
+2024-07-28 18:45:58.379 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:demo1 user=
+2024-07-28 18:45:58.379 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 18:45:58.380 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 18:45:58.380 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executing sql=insert into person(name,score) values(?,?), parameters ['JOE', 34]
+2024-07-28 18:45:58.381 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep2: insert into person(name,score) values(?,?) {1: 'JOE', 2: 34}
+2024-07-28 18:45:58.381 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep2: insert into person(name,score) values(?,?) {1: 'JOE', 2: 34}
+2024-07-28 18:45:58.381 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn2: url=jdbc:h2:mem:demo1 user=
+2024-07-28 18:45:58.381 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 18:45:58.382 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 18:45:58.394 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@5b07730f
+2024-07-28 18:45:58.395 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 18:45:58.395 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from person
+2024-07-28 18:45:58.401 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 18:45:58.408 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 18:45:58.425 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 18:45:58.426 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 18:45:58.426 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 18:45:58.426 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep3: select name, score from person
+2024-07-28 18:45:58.426 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 18:45:58.426 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn3: url=jdbc:h2:mem:demo1 user=
+2024-07-28 18:45:58.427 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 18:45:58.427 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:636 | closing connection provider
+2024-07-28 18:45:58.427 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:638 | closed connection provider

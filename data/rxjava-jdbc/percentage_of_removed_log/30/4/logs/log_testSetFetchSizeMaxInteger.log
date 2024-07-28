@@ -1,0 +1,14 @@
+2024-07-28 16:11:49.080 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.FetchSizeTest$1@65e21ce3
+2024-07-28 16:11:49.081 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 16:11:49.084 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 16:11:49.092 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name, score from people, parameters []
+2024-07-28 16:11:49.093 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=Mock for PreparedStatement, hashCode: 2018164030
+2024-07-28 16:11:49.097 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 16:11:49.098 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled Mock for PreparedStatement, hashCode: 2018164030
+2024-07-28 16:11:49.098 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed Mock for PreparedStatement, hashCode: 2018164030
+2024-07-28 16:11:49.099 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 16:11:49.099 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 16:11:49.100 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 16:11:49.100 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 16:11:49.101 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled Mock for PreparedStatement, hashCode: 2018164030
+2024-07-28 16:11:49.101 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed Mock for PreparedStatement, hashCode: 2018164030

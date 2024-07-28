@@ -1,0 +1,27 @@
+2024-07-28 18:56:45.656 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 18:56:45.660 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep10: null
+2024-07-28 18:56:45.661 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 18:56:45.661 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 18:56:45.663 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 18:56:45.664 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:test1 user=
+2024-07-28 18:56:45.665 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep11: null
+2024-07-28 18:56:45.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep12: null
+2024-07-28 18:56:45.666 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 18:56:45.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 18:56:45.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 18:56:45.667 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn2: url=jdbc:h2:mem:test1 user=
+2024-07-28 18:56:45.669 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep13: null
+2024-07-28 18:56:45.669 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep14: null
+2024-07-28 18:56:45.670 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 18:56:45.670 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 18:56:45.671 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
+2024-07-28 18:56:45.671 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn3: url=jdbc:h2:mem:test1 user=
+2024-07-28 18:56:45.674 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@3f446bef
+2024-07-28 18:56:45.675 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 18:56:45.681 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select min(score) from person, parameters []
+2024-07-28 18:56:45.687 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 18:56:45.691 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 18:56:45.692 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep15: null
+2024-07-28 18:56:45.692 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn4: url=jdbc:h2:mem:test1 user=
+2024-07-28 18:56:45.692 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 18:56:45.693 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con

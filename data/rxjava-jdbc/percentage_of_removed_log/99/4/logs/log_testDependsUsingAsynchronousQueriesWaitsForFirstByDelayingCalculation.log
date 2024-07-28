@@ -1,0 +1,2 @@
+2024-07-29 00:31:14.721 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name from person
+2024-07-29 00:31:14.734 | [RxIoScheduler-2] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs

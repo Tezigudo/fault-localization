@@ -1,0 +1,20 @@
+2024-07-28 21:11:52.660 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep0: create table person (name varchar(50) primary key, score int not null,dob date, registered timestamp)
+2024-07-28 21:11:52.662 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep0: null
+2024-07-28 21:11:52.662 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:11:52.663 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:11:52.678 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep1: insert into person(name,score) values(?,?) {1: 'FRED', 2: 21}
+2024-07-28 21:11:52.678 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep1: null
+2024-07-28 21:11:52.679 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:11:52.679 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:11:52.680 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | executed ps=prep2: insert into person(name,score) values(?,?) {1: 'JOE', 2: 34}
+2024-07-28 21:11:52.680 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep2: null
+2024-07-28 21:11:52.680 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onNext
+2024-07-28 21:11:52.681 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QueryUpdateOnSubscribe:331 | onCompleted
+2024-07-28 21:11:52.693 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@12bcd0c0
+2024-07-28 21:11:52.693 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 21:11:52.693 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from person
+2024-07-28 21:11:52.725 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:11:52.725 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep3: null
+2024-07-28 21:11:52.725 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 21:11:52.726 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 21:11:52.726 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:638 | closed connection provider

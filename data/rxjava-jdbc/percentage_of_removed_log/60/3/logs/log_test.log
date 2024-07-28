@@ -1,0 +1,10 @@
+2024-07-28 19:23:55.508 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name from Person, parameters []
+2024-07-28 19:23:55.512 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select name from Person
+2024-07-28 19:23:55.515 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 19:23:55.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 19:23:55.531 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep9: select name from Person
+2024-07-28 19:23:55.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 19:23:55.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 19:23:55.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:141 | onError: query column names do not include 'bingo'
+2024-07-28 19:23:55.533 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 19:23:55.533 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed

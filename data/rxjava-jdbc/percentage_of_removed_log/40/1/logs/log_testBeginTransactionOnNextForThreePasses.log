@@ -1,0 +1,37 @@
+2024-07-28 16:34:15.305 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 16:34:15.317 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.336 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep9: update person set score=? {1: 11}
+2024-07-28 16:34:15.338 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.340 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep10: update person set score=score + 5
+2024-07-28 16:34:15.341 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 16:34:15.341 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.343 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn1: url=jdbc:h2:mem:test1 user=
+2024-07-28 16:34:15.344 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 16:34:15.344 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.345 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep11: update person set score=? {1: 12}
+2024-07-28 16:34:15.346 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.346 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep12: update person set score=score + 5
+2024-07-28 16:34:15.347 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 16:34:15.347 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.348 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn2: url=jdbc:h2:mem:test1 user=
+2024-07-28 16:34:15.348 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:698 | beginTransactionSubscribe
+2024-07-28 16:34:15.348 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.349 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep13: update person set score=? {1: 13}
+2024-07-28 16:34:15.350 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.351 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep14: update person set score=score + 5
+2024-07-28 16:34:15.351 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 16:34:15.351 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1
+2024-07-28 16:34:15.352 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn3: url=jdbc:h2:mem:test1 user=
+2024-07-28 16:34:15.355 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@56276db8
+2024-07-28 16:34:15.360 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 16:34:15.364 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep15: select min(score) from person
+2024-07-28 16:34:15.368 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 16:34:15.371 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 16:34:15.371 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 16:34:15.372 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 16:34:15.372 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep15: select min(score) from person
+2024-07-28 16:34:15.372 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 16:34:15.373 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed conn4: url=jdbc:h2:mem:test1 user=
+2024-07-28 16:34:15.374 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 16:34:15.374 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 16:34:15.374 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed

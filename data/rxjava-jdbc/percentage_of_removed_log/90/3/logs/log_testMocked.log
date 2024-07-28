@@ -1,0 +1,6 @@
+2024-07-28 22:58:55.588 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 22:58:55.610 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 22:58:55.611 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 22:58:55.612 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 22:58:55.613 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=3
+2024-07-28 22:58:55.614 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:684 | batching size=1

@@ -1,0 +1,2 @@
+2024-07-28 22:30:25.243 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:671 | beginTransactionObserve
+2024-07-28 22:30:25.271 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed

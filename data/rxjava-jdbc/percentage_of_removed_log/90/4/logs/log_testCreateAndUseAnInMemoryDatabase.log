@@ -1,0 +1,8 @@
+2024-07-28 23:19:55.171 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep0: create table person (name varchar(50) primary key, score int not null,dob date, registered timestamp)
+2024-07-28 23:19:55.186 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep1: insert into person(name,score) values(?,?) {1: 'FRED', 2: 21}
+2024-07-28 23:19:55.187 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep2: insert into person(name,score) values(?,?) {1: 'JOE', 2: 34}
+2024-07-28 23:19:55.200 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from person
+2024-07-28 23:19:55.228 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep3: select name, score from person
+2024-07-28 23:19:55.228 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 23:19:55.228 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 23:19:55.229 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:636 | closing connection provider

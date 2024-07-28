@@ -1,0 +1,6 @@
+2024-07-28 21:52:02.012 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderNonClosing@75f95314
+2024-07-28 21:52:02.037 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 21:52:02.037 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep8: null
+2024-07-28 21:52:02.038 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:148 | closed com.github.davidmoten.rx.jdbc.ConnectionNonClosing@4c5474f5
+2024-07-28 21:52:02.039 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 21:52:02.039 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:638 | closed connection provider

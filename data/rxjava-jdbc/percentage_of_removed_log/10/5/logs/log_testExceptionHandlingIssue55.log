@@ -1,0 +1,21 @@
+2024-07-28 13:57:21.457 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:103 | connectionProvider=com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrl@1ecee32c
+2024-07-28 13:57:21.459 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:107 | preparing statement,sql=select name, score from person order by name
+2024-07-28 13:57:21.465 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:113 | setting parameters
+2024-07-28 13:57:21.467 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:129 | executing sql=select name, score from person order by name, parameters []
+2024-07-28 13:57:21.470 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:132 | executed ps=prep9: select name, score from person order by name
+2024-07-28 13:57:21.474 | [main] | TRACE | com.github.davidmoten.rx.jdbc.QuerySelectProducer:114 | onNext
+2024-07-28 13:57:21.482 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:161 | closing rs
+2024-07-28 13:57:21.482 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs9: null
+2024-07-28 13:57:21.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:163 | closing ps
+2024-07-28 13:57:21.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled prep9: select name, score from person order by name
+2024-07-28 13:57:21.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:129 | closed prep9: null
+2024-07-28 13:57:21.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:165 | closing con
+2024-07-28 13:57:21.483 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 13:57:21.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 13:57:21.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:152 | closing ps
+2024-07-28 13:57:21.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:154 | closing con
+2024-07-28 13:57:21.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:156 | closed
+2024-07-28 13:57:21.484 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:141 | onError: class java.lang.String cannot be cast to class com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person (java.lang.String is in module java.base of loader 'bootstrap'; com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person is in unnamed module of loader 'app')
+2024-07-28 13:57:21.485 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:715 | endTransactionObserve
+2024-07-28 13:57:21.488 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:706 | endTransactionSubscribe
+2024-07-28 13:57:21.488 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:146 | onError: class java.lang.String cannot be cast to class com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person (java.lang.String is in module java.base of loader 'bootstrap'; com.github.davidmoten.rx.jdbc.DatabaseTestBase$Person is in unnamed module of loader 'app')

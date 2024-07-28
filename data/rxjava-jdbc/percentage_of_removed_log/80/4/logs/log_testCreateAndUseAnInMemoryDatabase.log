@@ -1,0 +1,7 @@
+2024-07-28 22:08:55.337 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:105 | getting connection
+2024-07-28 22:08:55.368 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:150 | closing rs
+2024-07-28 22:08:55.369 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:214 | closed rs0: null
+2024-07-28 22:08:55.370 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectProducer:129 | onCompleted
+2024-07-28 22:08:55.370 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.QuerySelectOnSubscribe:167 | closed
+2024-07-28 22:08:55.370 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:636 | closing connection provider
+2024-07-28 22:08:55.370 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Database:638 | closed connection provider

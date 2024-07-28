@@ -1,0 +1,6 @@
+2024-07-28 23:13:05.530 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5833f5cd
+2024-07-28 23:13:05.532 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5833f5cd
+2024-07-28 23:13:05.533 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5833f5cd
+2024-07-28 23:13:05.534 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5833f5cd
+2024-07-28 23:13:05.535 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:124 | cancelled com.github.davidmoten.rx.jdbc.PreparedStatementBatch@5833f5cd
+2024-07-28 23:13:05.536 | [main] | DEBUG | com.github.davidmoten.rx.jdbc.Util:184 | committed
