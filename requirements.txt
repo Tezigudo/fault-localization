@@ -2,3 +2,4 @@ pandas
 scikit-learn
 networkx
 matplotlib
+tqdm
