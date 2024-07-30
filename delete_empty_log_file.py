@@ -9,5 +9,5 @@ def delete_empty_logs(directory):
                     print(f"Deleting empty log file: {file_path}")
                     os.remove(file_path)
 
-directory = "percentage_of_removed_log"
+directory = "data/rxjava-jdbc/percentage_of_removed_log"
 delete_empty_logs(directory)
