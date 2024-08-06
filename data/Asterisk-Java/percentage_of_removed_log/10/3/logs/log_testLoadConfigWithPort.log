@@ -1,0 +1,2 @@
+2024-08-05 14:54:39.222 | [main] | DEBUG | o.a.f.DefaultAgiServerTest$MockedDefaultAgiServer:77 | Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory
+2024-08-05 14:54:39.286 | [main] | DEBUG | o.a.fastagi.DefaultAgiServer:77 | Using channelFactory org.asteriskjava.fastagi.internal.DefaultAgiChannelFactory

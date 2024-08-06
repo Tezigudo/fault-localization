@@ -1,0 +1,9 @@
+2024-08-06 10:01:15.544 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-06 10:01:15.546 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-06 10:01:15.547 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 10:01:15.622 | [Thread-3] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Tue Aug 06 10:01:15 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,channelstate=null,exten=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=1335719437]
+2024-08-06 10:01:15.658 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1352913142_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=1317853145
+2024-08-06 10:01:15.683 | [Thread-5] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1352913142_1':
+org.asteriskjava.manager.response.ManagerError: actionId='null'; message='Authentication failed'; response='Error'; uniqueId='null'; systemHashcode=790662486

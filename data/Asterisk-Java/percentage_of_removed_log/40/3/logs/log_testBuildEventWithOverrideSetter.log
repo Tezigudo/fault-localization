@@ -1,0 +1,2 @@
+2024-08-06 13:02:55.005 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 122 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-06 13:02:55.381 | [main] | WARN  | o.asteriskjava.util.ReflectionUtil:141 | multiple setters (case insensitive) exist for line on class(es) class org.asteriskjava.manager.internal.EEvent and class org.asteriskjava.manager.event.ManagerEvent

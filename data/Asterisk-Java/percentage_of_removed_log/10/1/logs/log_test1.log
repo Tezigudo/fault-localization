@@ -1,0 +1,2 @@
+2024-08-05 13:20:38.532 | [main] | WARN  | org.asteriskjava.lock.Locker:226 | Lock checking is already disabled
+2024-08-05 13:20:40.538 | [main] | WARN  | org.asteriskjava.lock.Locker:211 | Lock checking enabled

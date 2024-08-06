@@ -1,0 +1,14 @@
+2024-08-05 18:55:04.283 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 18:55:04.287 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 18:55:04.287 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 18:55:04.288 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 18:55:04.288 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 18:55:04.370 | [Thread-3] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 18:55:04 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=760462741]
+2024-08-05 18:55:04.372 | [Thread-3] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 18:55:04.374 | [Thread-3] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-05 18:55:04.409 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1045397707_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=1065227052
+2024-08-05 18:55:04.437 | [Thread-5] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1045397707_1':
+org.asteriskjava.manager.response.ManagerError: actionId='null'; message='Authentication failed'; response='Error'; uniqueId='null'; systemHashcode=253191760
+2024-08-05 18:55:04.438 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:702 | Closing socket.

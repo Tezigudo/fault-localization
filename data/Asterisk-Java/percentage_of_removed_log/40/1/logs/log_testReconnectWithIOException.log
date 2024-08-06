@@ -1,0 +1,3 @@
+2024-08-06 12:08:17.447 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 12:08:17.588 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 12:08:17.723 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:548 | Determined Asterisk version: null

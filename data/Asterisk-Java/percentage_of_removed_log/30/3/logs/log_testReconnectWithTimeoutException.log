@@ -1,0 +1,16 @@
+2024-08-06 11:25:03.108 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 11:25:03.111 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-06 11:25:03.111 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-06 11:25:03.111 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 11:25:03.112 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-06 11:25:03.116 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:702 | Closing socket.
+2024-08-06 11:25:03.117 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | ERROR | o.a.m.internal.ManagerConnectionImpl:1288 | TimeoutException while trying to log in after reconnect.
+2024-08-06 11:25:03.172 | [Thread-4] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-06 11:25:03.172 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 11:25:03.173 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-06 11:25:03.173 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 11:25:03.173 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-06 11:25:03.175 | [Thread-4] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-06 11:25:03.229 | [Thread-6] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-06 11:25:03.229 | [Thread-6] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-06 11:25:03.233 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:1273 | Successfully reconnected.

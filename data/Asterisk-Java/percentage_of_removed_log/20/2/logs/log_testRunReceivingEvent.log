@@ -1,0 +1,5 @@
+2024-08-05 17:20:02.678 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 241 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-05 17:20:03.421 | [main:AsyncEventPump] | INFO  | o.a.manager.internal.AsyncEventPump:57 | starting
+2024-08-05 17:20:03.436 | [main] | DEBUG | o.a.m.internal.ManagerReaderImpl:285 | Reached end of stream, terminating reader.
+2024-08-05 17:20:03.436 | [main] | INFO  | o.a.manager.internal.AsyncEventPump:106 | main:AsyncEventPump Requesting AsyncEventPump to stop
+2024-08-05 17:20:03.436 | [main:AsyncEventPump] | WARN  | o.a.manager.internal.AsyncEventPump:96 | AsyncEventPump has exited

@@ -1,0 +1,31 @@
+2024-08-05 21:40:44.214 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.DisconnectEvent[server=null,calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=164733543]
+2024-08-05 21:40:44.287 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 21:40:44.288 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 21:40:44.288 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 21:40:44.288 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 21:40:44.289 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 21:40:44.289 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-05 21:40:44.289 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-05 21:40:44.290 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:702 | Closing socket.
+2024-08-05 21:40:44.291 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | ERROR | o.a.m.internal.ManagerConnectionImpl:1288 | TimeoutException while trying to log in after reconnect.
+2024-08-05 21:40:44.341 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 21:40:44.342 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 21:40:44.342 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 21:40:44.342 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-05 21:40:44.342 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-05 21:40:44.363 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 21:40:44 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=372370230]
+2024-08-05 21:40:44.364 | [Thread-4] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 21:40:44.366 | [Thread-4] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-05 21:40:44.397 | [Thread-6] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 21:40:44 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=1342950597]
+2024-08-05 21:40:44.398 | [Thread-6] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 21:40:44.398 | [Thread-6] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-05 21:40:44.398 | [Thread-7] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '546492775_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=1570136630
+2024-08-05 21:40:44.431 | [Thread-8] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '546492775_1':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1054104655
+2024-08-05 21:40:44.432 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:540 | Successfully logged in
+2024-08-05 21:40:44.432 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:548 | Determined Asterisk version: null
+2024-08-05 21:40:44.432 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:1273 | Successfully reconnected.

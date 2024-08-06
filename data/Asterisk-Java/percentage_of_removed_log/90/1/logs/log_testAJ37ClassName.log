@@ -1,0 +1,1 @@
+2024-08-06 21:36:31.330 | [main] | DEBUG | o.a.f.ResourceBundleMappingStrategy:118 | Unable to create AgiScript instance of type org.asteriskjava.fastagi.NonExistingAgiScript: Class not found, make sure the class exists and is available on the CLASSPATH

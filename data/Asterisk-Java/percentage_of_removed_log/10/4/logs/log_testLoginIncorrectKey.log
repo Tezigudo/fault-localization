@@ -1,0 +1,13 @@
+2024-08-05 15:27:47.346 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 15:27:47.349 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 15:27:47.349 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 15:27:47.349 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 15:27:47.349 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-05 15:27:47.351 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-05 15:27:47.423 | [Thread-3] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 15:27:47 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,channelstate=null,exten=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=1968421816]
+2024-08-05 15:27:47.426 | [Thread-3] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+2024-08-05 15:27:47.462 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1333945918_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=1776523423
+2024-08-05 15:27:47.490 | [Thread-5] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1333945918_1':
+org.asteriskjava.manager.response.ManagerError: actionId='null'; message='Authentication failed'; response='Error'; uniqueId='null'; systemHashcode=900225725

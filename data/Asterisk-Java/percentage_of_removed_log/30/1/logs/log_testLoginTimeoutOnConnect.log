@@ -1,0 +1,3 @@
+2024-08-06 10:08:18.471 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-06 10:08:18.475 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-06 10:08:18.476 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread

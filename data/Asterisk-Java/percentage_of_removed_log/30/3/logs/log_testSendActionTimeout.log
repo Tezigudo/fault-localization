@@ -1,0 +1,7 @@
+2024-08-06 11:04:02.335 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 11:04:02.338 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-06 11:04:02.338 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-06 11:04:02.339 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 11:04:02.343 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-06 11:04:02.407 | [Thread-3] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-06 11:04:02.409 | [Thread-3] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.

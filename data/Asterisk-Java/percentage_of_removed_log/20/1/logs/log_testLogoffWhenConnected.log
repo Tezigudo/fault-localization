@@ -1,0 +1,12 @@
+2024-08-05 18:52:41.165 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 18:52:41.169 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 18:52:41.169 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 18:52:41.170 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 18:52:41.170 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 18:52:41.217 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1352913142_0':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1810569208
+2024-08-05 18:52:41.218 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:702 | Closing socket.
+2024-08-05 18:52:41.257 | [Thread-3] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 18:52:41 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,channelstate=null,exten=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=1062296768]
+2024-08-05 18:52:41.259 | [Thread-3] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 18:52:41.262 | [Thread-3] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.

@@ -1,0 +1,4 @@
+2024-08-06 14:30:48.798 | [Thread-4] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-06 14:30:48.849 | [Thread-6] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-06 14:30:48.860 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:540 | Successfully logged in
+2024-08-06 14:30:48.860 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | INFO  | o.a.m.internal.ManagerConnectionImpl:548 | Determined Asterisk version: null

@@ -1,0 +1,15 @@
+2024-08-05 17:23:08.341 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 17:23:08.344 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 17:23:08.345 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 17:23:08.345 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-05 17:23:08.345 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-05 17:23:08.345 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-05 17:23:08.348 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:666 | Passing socket to writer
+2024-08-05 17:23:08.427 | [Thread-3] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Mon Aug 05 17:23:08 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,channelstate=null,exten=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=1274889260]
+2024-08-05 17:23:08.429 | [Thread-3] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 17:23:08.464 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '946884592_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=582769945
+2024-08-05 17:23:08.491 | [Thread-5] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '946884592_1':
+org.asteriskjava.manager.response.ManagerError: actionId='null'; message='Authentication failed'; response='Error'; uniqueId='null'; systemHashcode=246944646
+2024-08-05 17:23:08.492 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:702 | Closing socket.

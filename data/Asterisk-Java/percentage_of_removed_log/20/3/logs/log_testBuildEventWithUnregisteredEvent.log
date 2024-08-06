@@ -1,0 +1,2 @@
+2024-08-05 16:29:54.548 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 160 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-05 16:29:54.967 | [main] | INFO  | o.a.m.internal.EventBuilderImpl:190 | No event class registered for event type 'nonexisting', attributes: {event=Nonexisting}. Please report at https://github.com/asterisk-java/asterisk-java/issues

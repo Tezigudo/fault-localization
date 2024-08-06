@@ -1,0 +1,6 @@
+2024-08-06 13:43:41.679 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-06 13:43:41.686 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 13:43:41.786 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1870541675_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=1856691649
+2024-08-06 13:43:41.815 | [Thread-5] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1870541675_1':
+org.asteriskjava.manager.response.ManagerError: actionId='null'; message='Authentication failed'; response='Error'; uniqueId='null'; systemHashcode=178519158

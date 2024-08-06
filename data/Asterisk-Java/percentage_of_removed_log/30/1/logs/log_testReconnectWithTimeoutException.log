@@ -1,0 +1,15 @@
+2024-08-06 10:11:07.603 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.DisconnectEvent[server=null,calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=570294012]
+2024-08-06 10:11:07.667 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-06 10:11:07.668 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-06 10:11:07.668 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 10:11:07.723 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:654 | Passing socket to reader
+2024-08-06 10:11:07.723 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread
+2024-08-06 10:11:07.734 | [Thread-4] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Tue Aug 06 10:11:07 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=200244276]
+2024-08-06 10:11:07.770 | [Thread-7] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1041794574_0':
+org.asteriskjava.manager.response.ChallengeResponse: actionId='null'; message='null'; response='null'; uniqueId='null'; systemHashcode=925734185
+2024-08-06 10:11:07.778 | [Thread-6] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1070 | Dispatching event:
+org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent[dateReceived='Tue Aug 06 10:11:07 JST 2024',server=null,protocolidentifier='Asterisk Call Manager/1.0',calleridname=null,systemname=null,connectedlinename=null,priority=null,sequencenumber=null,exten=null,channelstate=null,calleridnum=null,context=null,connectedlinenum=null,timestamp=null,channelstatedesc=null,systemHashcode=340938157]
+2024-08-06 10:11:07.797 | [Thread-8] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId '1041794574_1':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=627364336

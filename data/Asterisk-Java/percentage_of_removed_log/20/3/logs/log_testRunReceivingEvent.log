@@ -1,0 +1,3 @@
+2024-08-05 16:41:19.903 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 171 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-05 16:41:20.629 | [main:AsyncEventPump] | INFO  | o.a.manager.internal.AsyncEventPump:57 | starting
+2024-08-05 16:41:20.644 | [main] | INFO  | o.a.manager.internal.AsyncEventPump:106 | main:AsyncEventPump Requesting AsyncEventPump to stop

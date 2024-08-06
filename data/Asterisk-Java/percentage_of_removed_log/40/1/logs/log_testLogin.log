@@ -1,0 +1,2 @@
+2024-08-06 11:48:55.474 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-06 11:48:55.616 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:548 | Determined Asterisk version: null

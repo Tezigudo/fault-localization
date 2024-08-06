@@ -1,0 +1,4 @@
+2024-08-05 14:55:16.367 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:1019 | Dispatching response with internalActionId 'null':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1485624601
+2024-08-05 14:55:16.370 | [main] | ERROR | o.a.m.internal.ManagerConnectionImpl:1034 | Unable to retrieve internalActionId from response: actionId '123_0-abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1485624601

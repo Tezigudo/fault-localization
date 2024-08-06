@@ -1,0 +1,1 @@
+2024-08-05 13:44:47.192 | [main] | INFO  | o.a.fastagi.command.DialCommand:60 | EXEC "dial" "PJSIP/alice","30","c"

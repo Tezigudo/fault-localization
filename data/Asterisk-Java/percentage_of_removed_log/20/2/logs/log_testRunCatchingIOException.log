@@ -1,0 +1,5 @@
+2024-08-05 17:42:27.306 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 118 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-05 17:42:28.284 | [main:AsyncEventPump] | INFO  | o.a.manager.internal.AsyncEventPump:57 | starting
+2024-08-05 17:42:28.289 | [main] | INFO  | o.a.m.internal.ManagerReaderImpl:289 | Terminating reader thread: Something happened to the network...
+2024-08-05 17:42:28.292 | [main] | INFO  | o.a.manager.internal.AsyncEventPump:106 | main:AsyncEventPump Requesting AsyncEventPump to stop
+2024-08-05 17:42:28.292 | [main:AsyncEventPump] | WARN  | o.a.manager.internal.AsyncEventPump:96 | AsyncEventPump has exited

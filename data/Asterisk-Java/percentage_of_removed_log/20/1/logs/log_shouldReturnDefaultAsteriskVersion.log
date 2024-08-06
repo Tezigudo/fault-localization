@@ -1,0 +1,1 @@
+2024-08-05 18:47:07.799 | [main] | WARN  | o.a.f.command.AbstractAgiCommand:42 | Asterisk Version isn't known, returning 1.4

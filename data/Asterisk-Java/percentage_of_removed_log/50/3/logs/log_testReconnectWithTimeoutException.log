@@ -1,0 +1,1 @@
+2024-08-06 15:06:45.713 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | ERROR | o.a.m.internal.ManagerConnectionImpl:1288 | TimeoutException while trying to log in after reconnect.

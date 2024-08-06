@@ -1,0 +1,2 @@
+2024-08-06 13:32:40.135 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket
+2024-08-06 13:32:40.138 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:658 | Creating and starting reader thread

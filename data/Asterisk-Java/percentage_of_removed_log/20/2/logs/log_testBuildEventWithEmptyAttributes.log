@@ -1,0 +1,2 @@
+2024-08-05 17:14:05.062 | [main] | INFO  | org.reflections.Reflections:219 | Reflections took 125 ms to scan 2 urls, producing 33 keys and 224 values
+2024-08-05 17:14:05.426 | [main] | ERROR | o.a.m.internal.EventBuilderImpl:123 | No event type in properties

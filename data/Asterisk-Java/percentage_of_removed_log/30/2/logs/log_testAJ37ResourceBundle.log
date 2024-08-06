@@ -1,0 +1,1 @@
+2024-08-06 10:29:24.977 | [main] | WARN  | o.a.f.ResourceBundleMappingStrategy:124 | Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface

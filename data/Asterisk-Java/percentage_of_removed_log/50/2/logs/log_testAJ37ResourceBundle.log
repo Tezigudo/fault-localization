@@ -1,0 +1,1 @@
+2024-08-06 14:12:39.174 | [main] | INFO  | o.a.f.ResourceBundleMappingStrategy:164 | Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript

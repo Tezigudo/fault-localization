@@ -1,0 +1,4 @@
+2024-08-05 14:23:15.685 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 14:23:15.689 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:642 | Creating reader for localhost:5038
+2024-08-05 14:23:15.689 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:647 | Creating writer
+2024-08-05 14:23:15.690 | [main] | DEBUG | o.a.m.internal.ManagerConnectionImpl:651 | Creating socket

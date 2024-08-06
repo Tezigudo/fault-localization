@@ -1,0 +1,1 @@
+2024-08-06 13:21:46.167 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | WARN  | o.a.m.internal.ManagerConnectionImpl:1299 | Exception while trying to reconnect: IOException

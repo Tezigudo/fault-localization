@@ -1,0 +1,3 @@
+2024-08-06 10:51:51.708 | [main] | WARN  | org.asteriskjava.lock.Locker:211 | Lock checking enabled
+2024-08-06 10:51:54.741 | [main] | WARN  | org.asteriskjava.lock.Locker:261 | Will dump Lock stats each minute when there is contention...
+2024-08-06 10:51:54.743 | [main] | WARN  | org.asteriskjava.lock.Locker:224 | Lock checking disabled

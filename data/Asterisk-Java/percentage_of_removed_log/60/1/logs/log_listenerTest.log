@@ -1,0 +1,11 @@
+2024-08-06 15:58:10.400 | [main] | INFO  | o.asteriskjava.util.ReflectionUtil:285 | Loaded 39
+2024-08-06 15:58:10.407 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.PeerEntryEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerEntryEvent
+2024-08-06 15:58:10.408 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:65 | Skipping abstract class class org.asteriskjava.manager.event.ManagerEvent
+2024-08-06 15:58:10.409 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.StatusCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusCompleteEvent
+2024-08-06 15:58:10.419 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:65 | Skipping abstract class class org.asteriskjava.manager.event.AbstractParkedCallEvent
+2024-08-06 15:58:10.425 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:65 | Skipping abstract class class org.asteriskjava.manager.event.AbstractMeetMeEvent
+2024-08-06 15:58:10.434 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.PeerlistCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerlistCompleteEvent
+2024-08-06 15:58:10.446 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.OriginateResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.OriginateResponseEvent
+2024-08-06 15:58:10.448 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:65 | Skipping abstract class class org.asteriskjava.manager.event.ResponseEvent
+2024-08-06 15:58:10.457 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.StatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusEvent
+2024-08-06 15:58:10.460 | [main] | INFO  | o.a.p.i.core.CoherentEventFactory:53 | Response Event Added class org.asteriskjava.manager.event.ConfbridgeListEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListEvent

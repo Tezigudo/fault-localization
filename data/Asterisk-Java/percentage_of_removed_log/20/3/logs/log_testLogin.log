@@ -1,0 +1,4 @@
+2024-08-05 16:41:32.950 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:639 | Connecting to localhost:5038
+2024-08-05 16:41:33.047 | [Thread-3] | INFO  | o.a.m.internal.ManagerConnectionImpl:1225 | Connected via Asterisk Call Manager/1.0
+2024-08-05 16:41:33.113 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:540 | Successfully logged in
+2024-08-05 16:41:33.113 | [main] | INFO  | o.a.m.internal.ManagerConnectionImpl:548 | Determined Asterisk version: null

@@ -1,0 +1,2 @@
+2024-08-06 10:52:40.998 | [Asterisk-Java ManagerConnection-0-Reconnect-0] | WARN  | o.a.m.internal.ManagerConnectionImpl:1299 | Exception while trying to reconnect: IOException
+2024-08-06 10:52:41.200 | [Thread-4] | WARN  | o.a.m.internal.ManagerConnectionImpl:1228 | Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.

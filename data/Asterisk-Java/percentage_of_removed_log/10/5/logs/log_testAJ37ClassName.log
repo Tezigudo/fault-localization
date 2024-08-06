@@ -1,0 +1,3 @@
+2024-08-05 16:22:40.870 | [main] | INFO  | o.a.f.ResourceBundleMappingStrategy:164 | Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+2024-08-05 16:22:40.875 | [main] | WARN  | o.a.f.ResourceBundleMappingStrategy:124 | Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+2024-08-05 16:22:40.876 | [main] | DEBUG | o.a.f.ResourceBundleMappingStrategy:118 | Unable to create AgiScript instance of type org.asteriskjava.fastagi.NonExistingAgiScript: Class not found, make sure the class exists and is available on the CLASSPATH

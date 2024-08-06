@@ -1,0 +1,2 @@
+2024-08-05 19:01:22.718 | [main] | WARN  | o.a.f.command.AbstractAgiCommand:42 | Asterisk Version isn't known, returning 1.4
+2024-08-05 19:01:22.737 | [main] | INFO  | o.a.fastagi.command.DialCommand:60 | EXEC "dial" "PJSIP/alice"|"30"|"c"
